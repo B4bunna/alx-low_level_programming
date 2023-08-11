@@ -1,23 +1,20 @@
-#include <stdlio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * description: 'uper and lower alphabets'*
- * 'always return 0'
+ *  main - prints alphabets
+ *  'always return 0'
  */
-
-/** main - entry point */
-
 int main(void)
 {
-int n;
-int m;
-while (n <= 122)
-{
-putchar(n);
-}
-while (m <= 90)
-{
-putcha(m);
-}
-putchar(‘\n’);
+	int i;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	char alpha(52) = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	for (i = 0; i < 52; i++)
+	{
+	putchar(alpha[i]);
+	}
+	putchar('\n');
 	return (0);
 }
