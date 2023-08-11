@@ -1,19 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <stdio.h>
+/*description: 'numbers of base 10'
+ * return: always 0
+ */
 
-/* betty style doc for function main goes there */
+/* main - the entry point of the project */
 int main(void)
 {
 	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	int i:
-		for (i=0;i<10;i++)
+		for (n = 0; n <= 9; n++)
 		{
-			printf(%d,i);
+			printf("%d", n);
 		}
-	putchar("\n");
+	printf("\n");
 	return (0);
 }

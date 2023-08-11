@@ -1,19 +1,23 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <stdlio.h>
+/**
+ * description: 'uper and lower alphabets'*
+ * 'always return 0'
+ */
 
-/* betty style doc for function main goes there */
+/** main - entry point */
+
 int main(void)
 {
-	int i;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	char alpha[52] =”abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ”;
-For (i=0; i<52; i++) 
+int n;
+int m;
+while (n <= 122)
 {
-putchar(alpha[i]);
-} 
+putchar(n);
+}
+while (m <= 90)
+{
+putcha(m);
+}
 putchar(‘\n’);
 	return (0);
 }

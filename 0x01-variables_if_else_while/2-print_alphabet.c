@@ -1,19 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/* main - entry point
+ * description: 'lower alphabets'
+ * return: 'always 0'
+ */
 int main(void)
 {
-	int i;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	char alpha[26] =”abcdefghijklmnopqrstuvwxyz”;
-For (i=0; i<26; i++)
+int n = 97;
+while (n <= 122)
 {
-putchar(alpha[i]);
+putchar(n);
+n++;
 }
 putchar(‘\n’);
-	return (0);
+return (0);
 }
