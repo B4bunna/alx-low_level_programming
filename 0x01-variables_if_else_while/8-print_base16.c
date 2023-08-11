@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * print numbers of base 16
- * always return 0
+ * Description:'print numbers of base 16'
+ * Return: always 0
  */
 int main(void)
 {
