@@ -9,19 +9,19 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	If (n==0) 
+	If (n==0)
+if (n > 0) 
 {
-printf (“ %d is zero\n, n“);
+Printf("%d is positive\n, n");
 } 
 
-else if (n > 0) 
+else if (n == 0) 
 {
-Printf (“ %d is positive\n, n“);
-} 
-
-else (n < 0) 
+Printf("%d is zero\n, n");
+}
+else 
 {
-Printf (“ %d is negative\n, n“);
+printf("%d is negative\n, n");
 }
 	return (0);
 }
