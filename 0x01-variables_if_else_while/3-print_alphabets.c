@@ -6,14 +6,18 @@
  */
 int main(void)
 {
-	int i;
+	int n = 97;
+	int m = 65;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	char alpha(52) = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	for (i = 0; i < 52; i++)
+	while (n <= 122)
 	{
-	putchar(alpha[i]);
+	putcha(n);
+	n++;
+	}
+	while (m < 90)
+	{
+	putchar(m);
+	m++;
 	}
 	putchar('\n');
 	return (0);
