@@ -1,7 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
+#include <stdio.h>
 /**
- *  main - prints alphabets
+ *  main - prints lower ands uper alphabets
  *  'always return 0'
  */
 int main(void)
