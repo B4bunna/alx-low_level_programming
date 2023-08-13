@@ -11,7 +11,7 @@ int main(void)
 
 	while (n <= 122)
 	{
-	putcha(n);
+	putchar(n);
 	n++;
 	}
 	while (m < 90)
