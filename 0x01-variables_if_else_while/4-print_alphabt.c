@@ -9,7 +9,7 @@ int main(void)
 {
 	int n;
 	
-For (n = 97; n <= 122; n++) 
+for (n = 97; n <= 122; n++) 
 {
 	if (n == 101 && n == 113)
 	{
@@ -18,6 +18,6 @@ For (n = 97; n <= 122; n++)
 	}
 putchar(n);
 } 
-putchar(‘\n’);
+putchar('\n');
 	return (0);
 }
