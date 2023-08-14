@@ -1,13 +1,21 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/** main - entry point
+*Description: alpabets except q and e
+*Always return 0
+**/
 int main(void)
 {
-	int i;
-For (i=0; i<122; i++) 
+	int n;
+	
+For (n = 97; n <= 122; n++) 
 {
+	if (n == 101 && n == 113)
+	{
+		continue;
+		n++;
+	}
 putchar(n);
 } 
 putchar(‘\n’);
