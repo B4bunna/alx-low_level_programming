@@ -9,14 +9,14 @@ int main(void)
 {
 	int n;
 	
-for (n = 97; n <= 122; n++) 
+for (n = 97; n <= 122; n++)
 {
+putchar(n);
 	if (n == 101 && n == 113)
 	{
-		break;
+		continue;
 		n++;
 	}
-putchar(n);
 } 
 putchar('\n');
 	return (0);
