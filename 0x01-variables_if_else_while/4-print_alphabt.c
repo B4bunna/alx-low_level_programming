@@ -11,12 +11,12 @@ int main(void)
 	
 for (n = 97; n <= 122; n++)
 {
-putchar(n);
 	if (n == 101 && n == 113)
 	{
-		continue;
 		n++;
+		continue;
 	}
+	putchar(n);
 } 
 putchar('\n');
 	return (0);
