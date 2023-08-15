@@ -5,10 +5,8 @@
  * always return asolute value
  */
 
-int _abs(int)
+int _abs(int i)
 {
-
-	int i;
 
 	if (i > 0)
 	{
