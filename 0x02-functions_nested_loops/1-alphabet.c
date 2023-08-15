@@ -4,14 +4,13 @@
  *   Return: Always 0.
  */
 
-int main(void)
+void print_alphabet(void)
 {
-int n = 97;
+int i;
 
-while (n <= 122)
+for (i = 0; i <= 122; i++)
 {
 _putchar(n);
-n++;
 }
 _putchar('\n');
 }
