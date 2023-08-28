@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * description: function that locates a character in a string
  * Return: char with result
