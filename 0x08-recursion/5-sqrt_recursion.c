@@ -6,11 +6,11 @@
 
 int sqrt2(int a, int b)
 {
-if (a * a == b)
-	return (a);
-else (a * a > b)
+if (b * b == a)
+	return (b);
+else (b * b > a)
 	return -1;
-return (sqrt2(b, a + 1));
+return (sqrt2(a,  + 1));
 }
 
 int _sqrt_recursion(int n)
