@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * description: If is 0 to 9 return 1, if not return 0
+ * Return: 0
+ *
+ **/
+int _isdigit(int c)
+{
+	if (c >= '0' && c <= '9')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+}
